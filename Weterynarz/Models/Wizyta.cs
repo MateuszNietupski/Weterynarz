@@ -2,5 +2,6 @@
 {
     public class Wizyta
     {
+        public int Id { get; set; }
     }
 }

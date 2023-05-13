@@ -1,6 +1,12 @@
-﻿namespace Weterynarz.Models.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Weterynarz.Models.DTOs
 {
     public class UserLoginRequestDto
     {
+        [Required]
+        public string Email { get; set; }
+        [Required] 
+        public string Password { get;set; }
     }
 }
